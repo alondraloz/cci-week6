@@ -16,8 +16,8 @@ function startTone() {
 const synth = new Tone.PolySynth().toDestination();
 
 // Setup grid Data
-const rows = ["E4", "D4", "C4"]; // Number of Rows
-const cols = 8; // Number of columns
+const rows = ["C4", "D4", "C4", "G3", "G2", "D6"]; // Number of Rows
+const cols = 16; // Number of columns
 const grid = [];
 for (let i = 0; i < rows.length; i++) {
     const row = [];

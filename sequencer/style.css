@@ -1,14 +1,18 @@
+html {
+    background-color: #3B322C;
+}
+
 #content {
     display: grid;
-    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
-    gap: 5px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+    gap: 10px;
 }
 
 .cell {
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
-    background: white;
+    width: 100px;
+    height: 25px;
+    border: 5px solid #94E8B4;
+    background: #94E8B4;
 }
 
 .cell.active {
@@ -16,10 +20,19 @@
 }
 
 .cell.active.highlight {
-    background-color: #02ff0a; /* Highlighted column color */
+    background-color: #FFEA00; /* Highlighted column color */
 }
 
 .cell.highlight {
-    background-color: #b4ffb6;
+    background-color:#02ff0a;
     border-color: #02ff0a; /* Highlighted column color */
 }
+
+
+/*
+brown 3B322C
+yellow FFEA00
+#94E8B4
+#72BDA3
+
+*/
